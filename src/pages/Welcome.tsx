@@ -1,6 +1,7 @@
 import React from 'react';
 import { PageContainer } from '@ant-design/pro-layout';
 import { Row, Col } from 'antd';
+import './Welcome.css';
 
 export default (): React.ReactNode => {
   return (
@@ -8,12 +9,11 @@ export default (): React.ReactNode => {
        <Row gutter={[48, 48]} justify="center" align="middle">
         <Col xl={12}>
           <h1
-            className="text-xl lg:text-5xl font-bold text-gray-800 text-center lg:text-left mb-0"
             style={{ lineHeight: '50px' }}
           >
-            headingTxt
+            51,667 WordPress Themes & Website Templates From $2
           </h1>
-          <p className="text-xl text-gray-700 text-center lg:text-left mt-0 lg:mt-2">paraTxt</p>
+          <p className="para">WordPress themes, web templates and more. Brought to you by the largest global community of creatives.</p>
           <div className="mt-8">
             <input type="text" />
           </div>

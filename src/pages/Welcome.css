@@ -1,0 +1,17 @@
+
+h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  color: rgb(39, 39, 39);
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.para {
+  /* text-xl text-gray-700 text-center lg:text-left mt-0 lg:mt-2 */
+  font-size: 1.2rem;
+  color: rgb(39, 39, 39);
+  margin-top: 1em;
+  line-height: 1.2;
+
+}
